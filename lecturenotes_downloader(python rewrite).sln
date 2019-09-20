@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "lecturenotes_downloader(python rewrite)", "lecturenotes_downloader(python rewrite).pyproj", "{658BF572-E67B-426C-BE17-E64884961DC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658BF572-E67B-426C-BE17-E64884961DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658BF572-E67B-426C-BE17-E64884961DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9108A35-F226-4D82-87CF-6502358A3E85}
+	EndGlobalSection
+EndGlobal
