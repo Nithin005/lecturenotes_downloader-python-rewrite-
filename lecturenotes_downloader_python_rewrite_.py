@@ -35,7 +35,8 @@ with tqdm(total=int(totalpages.group(1))) as pbar:
   while(page<=int(totalpages.group(1))):
     #GETting and searching for jpeg url
     #print((requests.get(url +str(page))).text)
-    jpg_url = re.findall(r'(/uploads/upload/note/\w+/\w+/[a-zA-Z0-9-]+\.(jpeg|jpg))',(requests.get(url +str(page))).text,)
+    #jpg_url = re.findall(r'(/uploads/upload/note/\w+/\w+/[a-zA-Z0-9-]+\.(jpeg|jpg))',(requests.get(url +str(page))).text,)
+    jpg_url = re.findall(r'(/uploads/upload/\w+/\w+/\w+/[a-zA-Z0-9-]+\.(jpeg|jpg))',(requests.get(url +str(page))).text,)
     #temp = jpg_url[-1]
     #print(jpg_url)
     #print(temp)
